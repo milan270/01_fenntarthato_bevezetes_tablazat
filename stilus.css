@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(247, 249, 240);
+}
+
+table,th,td {
+  border: 1px solid lightgray;
+  border-collapse: collapse;
+}
+td, th {
+  padding: 5px;
+}
+table {
+  width: 80%;
+  margin: auto;
+}
+th {
+  background-color: rgb(27, 94, 80);
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: rgb(243, 247, 238);
+}
+tr:nth-child(even) {
+  background-color: #c8e67a;
+}
